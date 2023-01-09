@@ -1,6 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap'); 
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #6CB4EE;*/
+    background-color: #F0F8FF;
+}
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: #00308F;
+    color: #6CB4EE;
+}
 h1{
     font-family: 'Rye', cursive;
+    font-size: 5em;
+    padding: 10px;
+    
+}
+nav{
+    background-color: #00308F;
+    padding: 10px;
+}
+nav a{
+    padding: 10px;
+    background-color: #6CB4EE;
+    border-radius: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    color: #00308F;
+}
+main{
+    margin: auto;
+    padding: 10px;
+    max-width: 1000px;
+}
+h2{
+    padding: 20px;
+    font-size: 3em;
+    font-family: 'Rye', cursive;
+}
+p{
+    line-height: 2em;
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+img {
+    width: 200px;
 }
